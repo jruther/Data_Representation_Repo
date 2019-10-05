@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- In this exercise we create an XML.JR - 5.10.19 -->
+
+<library_catalogue>
+    <technical_books>
+        <book isbn-13="978-1119543619" isbn-10="1119543614"> 
+        <title>Car Repair for Dummies</title>
+        <author>Deanna Sclar</author> 
+        </book>
+
+        <book isbn-13="978-0956344304" isbn-10="0956344305"> 
+        <title>Car Care Made Easy</title> 
+        <author>Alex Moss</author> 
+        </book>
+    </technical_books>
+        
+    <cookery_books>
+        <book isbn-13="978-0008349967" isbn-10="0008349967"> 
+        <title>Bosh! How to live Vegan</title> 
+        <author>Henry Firth</author> 
+        </book>
+        
+        <book isbn-13="978-0008349967" isbn-10="0008349967"> 
+        <title>Ultimate Cookery Course</title> 
+        <author>Gordon Ramsay</author> 
+        </book>    
+    </cookery_books>
+</library_catalogue>    
