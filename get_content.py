@@ -3,7 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-page = requests.get("https://stackoverflow.com")
+page = requests.get("https://www.sem-o.com/market-data/dynamic-reports/#BM-095")
 
 soup1 = BeautifulSoup(page.content, 'html.parser')
 
