@@ -11,6 +11,8 @@ page = requests.get("https://www.myhome.ie")
 
 soup1 = BeautifulSoup(page.content, 'html.parser')
 
+
+
 print(page)
 print("---------------------------")
 print(soup1.prettify())
