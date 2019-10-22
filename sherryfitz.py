@@ -4,8 +4,9 @@ import requests
 import urllib.request
 import csv
 from bs4 import BeautifulSoup
-#Url = requests.get("https://www.myhome.ie/residential/mayo/house-for-sale?page=1")
-page = requests.get("https://www.sherryfitz.ie/properties/search?search%5Bpage%5D=2&search%5Bproperty_id%5D=false&search%5Btop_location%5D=gMO")
+
+url = "https://www.sherryfitz.ie/properties/search?search%5Bpage%5D=2&search%5Bproperty_id%5D=false&search%5Btop_location%5D=gMO"
+page = requests.get(url)
 
 soup = BeautifulSoup(page.content, 'html.parser')
 

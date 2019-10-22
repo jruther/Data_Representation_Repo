@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-with open ("carviewer") as fp:
+with open ("carviewer.html") as fp:
     soup = BeautifulSoup(fp, 'html.parser')
 
 #print(soup.tr)

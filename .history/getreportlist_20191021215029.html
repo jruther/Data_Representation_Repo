@@ -1,0 +1,90 @@
+<html>
+    <head>
+            <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                
+            <title> Lab05 - Get Report List from SEMO for Imbalance Prices</title>
+
+
+    </head>
+
+    <body>
+        <button onclick = "getReportList()">go</button>
+        <table id="output"></table>
+
+
+        <script>
+            function getReportList(){
+                $.ajax({
+                    "url": "https://reports.sem-o.com/api/v1/documents/static-reports?reportname%20=%20%22Balancing%20and%20Imbalance%20Market%20Cost%20View",
+                    "method":"GET",
+                    "data":"",
+                    "dataType":"JSON",
+                    "success":function(result){
+                       //console.log(result);
+                       console.log(result.pagination.totalPages)
+                       getListOfReports(result.pagination.totalPages)
+                    },
+                    "error":function(xhr,status,error){
+                        console.log("status: "+ status + " message:"+ error);
+                    }
+                });
+            }
+
+            function getListOfReports(pageNumber){
+                $.ajax({
+                    "url": "https://reports.sem-o.com/api/v1/documents/static-reports?reportname%20=%20%22Balancing%20and%20Imbalance%20Market%20Cost%20View&page="+pageNumber,
+                    "method":"GET",
+                    "data":"",
+                    "dataType":"JSON",
+                    "success":function(result){
+                       //console.log(result);
+                        var items = result.items;
+                        for (item of items){
+                            getRow(item.ResourceName);
+                        }
+                    },
+                    "error":function(xhr,status,error){
+                        console.log("status: "+ status + " message:"+ error);
+                    }
+                });
+
+            }
+            function getRow(resourceName){
+                $.ajax({
+                    "url": "https://reports.sem-o.com/api/v1/documents/" + resourceName,
+                    "method":"GET",
+                    "data":"",
+                    "dataType":"JSON",
+                    "success":function(result){
+                       console.log(JSON.stringify(result.rows[0]));
+                       insertRow(result.rows[0]);
+                    },
+                    "error":function(xhr,status,error){
+                        console.log("status: "+ status + " message:"+ error);
+                    }
+                });
+
+            }
+
+            function insertRow(obj){
+                var tableElement = document.getElementById("output");
+                var rowElement = tableElement.insertRow(-1);
+                var cellElement = rowelement.insertCell(-1);
+                cellElement.innerHTML = obj.StartTime;
+
+                var cellElement = rowelement.insertCell(-1);
+                cellElement.innerHTML = obj.EndTime;
+
+                var cellElement = rowelement.insertCell(-1);
+                cellElement.innerHTML = obj.ImbalanceVolume;
+
+                var cellElement = rowelement.insertCell(-1);
+                cellElement.innerHTML = obj.ImbalancePrice;
+
+                var cellElement = rowelement.insertCell(-1);
+                cellElement.innerHTML = obj.ImbalanceCost;
+            }
+        </script>
+
+
+    </body>
