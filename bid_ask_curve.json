@@ -1,0 +1,12 @@
+{
+    "pagination": {
+        "pageSize": 10,
+        "currentPage": 1,
+        "totalItems": 0,
+        "totalPages": 0,
+        "sort_by": "PublishTime",
+        "order_by": "ASC"
+    },
+    "resourceBaseUri": "http:\/\/reports.semopx.com\/documents",
+    "items": []
+}

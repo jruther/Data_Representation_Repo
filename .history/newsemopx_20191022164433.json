@@ -1,0 +1,611 @@
+{
+    "pagination": {
+        "pageSize": 50,
+        "currentPage": 1,
+        "totalItems": 1637,
+        "totalPages": 33
+    },
+    "resourceBaseUri": "http:\/\/reports.semopx.com\/documents",
+    "items": [
+        {
+            "_id": "5d8cf59e9620d971a83a0613",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_ROI-IDA1_20190927_20190926191036.xml",
+            "PublishTime": "2019-09-28T00:00:04",
+            "Date": "2019-09-27"
+        },
+        {
+            "_id": "5d92cf429620d92f0d3e3253",
+            "PublishTime": "2019-10-01T04:00:02",
+            "Date": "2019-09-30",
+            "DPuG_ID": "EA-007",
+            "ReportName": "Intraday Market Results Trade",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "IDC_TradeFile_20190930_20191001053452.xml"
+        },
+        {
+            "_id": "5d95aa829620d9640a199042",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_NI-IDA2_20191003_20191003094036.xml",
+            "PublishTime": "2019-10-04T00:00:03",
+            "Date": "2019-10-03"
+        },
+        {
+            "_id": "5d95aa839620d9640a19905b",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_ROI-IDA2_20191003_20191003094036.xml",
+            "PublishTime": "2019-10-04T00:00:03",
+            "Date": "2019-10-03"
+        },
+        {
+            "_id": "5d9c92e09620d969217e6cbd",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_NI-IDA3_20191008_20191008151728.xml",
+            "PublishTime": "2019-10-09T00:00:04",
+            "Date": "2019-10-08"
+        },
+        {
+            "_id": "5d9c92e09620d969217e6cbe",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_ROI-IDA3_20191008_20191008151728.xml",
+            "PublishTime": "2019-10-09T00:00:05",
+            "Date": "2019-10-08"
+        },
+        {
+            "_id": "5d9d93849620d97384057bf2",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_NI-IDA2_20191009_20191009094048.xml",
+            "PublishTime": "2019-10-10T00:00:03",
+            "Date": "2019-10-09"
+        },
+        {
+            "_id": "5d8092869620d947343ed5a4",
+            "DPuG_ID": "EA-002",
+            "ReportName": "ETS Bid File",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "BidFile_SEM-IDA2_PWR-SEM-GB-D_20190917070000_20190917070631.csv",
+            "Date": "2019-09-17T07:00:00",
+            "PublishTime": "2019-09-18T00:00:05"
+        },
+        {
+            "_id": "5d82fd429620d9434c2225b2",
+            "PublishTime": "2019-09-20T00:00:04",
+            "Date": "2019-09-18",
+            "DPuG_ID": "EA-008",
+            "ReportName": "Intraday Market Results Order",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "IDC_OrderFile_20190918_20190919053001.xml"
+        },
+        {
+            "_id": "5d844ec39620d9163d614c82",
+            "PublishTime": "2019-09-21T00:00:05",
+            "Date": "2019-09-19",
+            "DPuG_ID": "EA-008",
+            "ReportName": "Intraday Market Results Order",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "IDC_OrderFile_20190919_20190920053001.xml"
+        },
+        {
+            "_id": "5d844ec39620d9163d614c83",
+            "PublishTime": "2019-09-20T04:00:03",
+            "Date": "2019-09-19",
+            "DPuG_ID": "EA-007",
+            "ReportName": "Intraday Market Results Trade",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "IDC_TradeFile_20190919_20190920053552.xml"
+        },
+        {
+            "_id": "5d84d7df9620d973b82673ff",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_ROI-IDA3_20190920_20190920151734.xml",
+            "PublishTime": "2019-09-21T00:00:04",
+            "Date": "2019-09-20"
+        },
+        {
+            "_id": "5d84d7df9620d973b826740c",
+            "DPuG_ID": "EA-002",
+            "ReportName": "ETS Bid File",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "BidFile_SEM-IDA3_PWR-SEM-D_20190920130000_20190920130410.csv",
+            "Date": "2019-09-20T13:00:00",
+            "PublishTime": "2019-09-21T00:00:04"
+        },
+        {
+            "_id": "5d84d7df9620d973b826740e",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_ROI-IDA3_20190920_20190920151658.xml",
+            "PublishTime": "2019-09-21T00:00:05",
+            "Date": "2019-09-20"
+        },
+        {
+            "_id": "5d86295f9620d957f361147e",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_ROI-IDA3_20190921_20190921151649.xml",
+            "PublishTime": "2019-09-22T00:00:05",
+            "Date": "2019-09-21"
+        },
+        {
+            "_id": "5d872a049620d96a526c5cfb",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_ROI-IDA2_20190922_20190922094427.xml",
+            "PublishTime": "2019-09-23T00:00:04",
+            "Date": "2019-09-22"
+        },
+        {
+            "_id": "5d875b3b9620d9693865be43",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_ROI-DA_20190923_20190922130258.xml",
+            "PublishTime": "2019-09-24T00:00:04",
+            "Date": "2019-09-23"
+        },
+        {
+            "_id": "5d875ebe9620d97257753b42",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_NI-DA_20190923_20190922131850.xml",
+            "PublishTime": "2019-09-24T00:00:02",
+            "Date": "2019-09-23"
+        },
+        {
+            "_id": "5d8ae6459620d937054fa012",
+            "PublishTime": "2019-09-26T00:00:05",
+            "Date": "2019-09-24",
+            "DPuG_ID": "EA-008",
+            "ReportName": "Intraday Market Results Order",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "IDC_OrderFile_20190924_20190925053001.xml"
+        },
+        {
+            "_id": "5d8b4fbe9620d93c786e2073",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_ROI-DA_20190926_20190925130423.xml",
+            "PublishTime": "2019-09-27T00:00:05",
+            "Date": "2019-09-26"
+        },
+        {
+            "_id": "5d8cf59f9620d971a83a0644",
+            "DPuG_ID": "EA-002",
+            "ReportName": "ETS Bid File",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "BidFile_SEM-IDA1_PWR-SEM-GB-D+1_20190926163000_20190926164004.csv",
+            "Date": "2019-09-27T16:30:00",
+            "PublishTime": "2019-09-28T00:00:04"
+        },
+        {
+            "_id": "5d8d89459620d96bce7816e3",
+            "PublishTime": "2019-09-27T04:00:05",
+            "Date": "2019-09-26",
+            "DPuG_ID": "EA-007",
+            "ReportName": "Intraday Market Results Trade",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "IDC_TradeFile_20190926_20190927053451.xml"
+        },
+        {
+            "_id": "5d8df2be9620d97dbc138d43",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_ROI-DA_20190928_20190927130411.xml",
+            "PublishTime": "2019-09-29T00:00:05",
+            "Date": "2019-09-28"
+        },
+        {
+            "_id": "5d8e471e9620d958c74d4593",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_ROI-IDA1_20190928_20190927191134.xml",
+            "PublishTime": "2019-09-29T00:00:05",
+            "Date": "2019-09-28"
+        },
+        {
+            "_id": "5d8e471f9620d958c74d45c4",
+            "DPuG_ID": "EA-002",
+            "ReportName": "ETS Bid File",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "BidFile_SEM-IDA1_PWR-SEM-GB-D+1_20190927163000_20190927163831.csv",
+            "Date": "2019-09-28T16:30:00",
+            "PublishTime": "2019-09-29T00:00:05"
+        },
+        {
+            "_id": "5d9307849620d93b89431d26",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_ROI-IDA2_20191001_20191001094230.xml",
+            "PublishTime": "2019-10-02T00:00:06",
+            "Date": "2019-10-01"
+        },
+        {
+            "_id": "5d934a4e9620d9665a61b0c2",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_NI-DA_20191002_20191001142003.xml",
+            "PublishTime": "2019-10-03T00:00:03",
+            "Date": "2019-10-02"
+        },
+        {
+            "_id": "5d60b6419620d96bfe63a232",
+            "PublishTime": "2019-08-25T00:00:05",
+            "Date": "2019-08-23",
+            "DPuG_ID": "EA-008",
+            "ReportName": "Intraday Market Results Order",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "IDC_OrderFile_20190823_20190824053001.xml"
+        },
+        {
+            "_id": "5d62c59c9620d978f9284a34",
+            "DPuG_ID": "EA-002",
+            "ReportName": "ETS Bid File",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "BidFile_SEM-IDA1_PWR-SEM-GB-D+1_20190825163000_20190825163719.csv",
+            "Date": "2019-08-26T16:30:00",
+            "PublishTime": "2019-08-27T00:00:05"
+        },
+        {
+            "_id": "5d62c59c9620d978f9284a36",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_ROI-IDA1_20190826_20190825190706.xml",
+            "PublishTime": "2019-08-27T00:00:06",
+            "Date": "2019-08-26"
+        },
+        {
+            "_id": "5d6391829620d95cc0576d02",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_NI-IDA2_20190826_20190826093951.xml",
+            "PublishTime": "2019-08-27T00:00:04",
+            "Date": "2019-08-26"
+        },
+        {
+            "_id": "5d6391849620d95cc0576d34",
+            "DPuG_ID": "EA-002",
+            "ReportName": "ETS Bid File",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "BidFile_SEM-IDA2_PWR-SEM-GB-D_20190826070000_20190826070652.csv",
+            "Date": "2019-08-26T07:00:00",
+            "PublishTime": "2019-08-27T00:00:05"
+        },
+        {
+            "_id": "5d64aac49620d97c6b0c5bf3",
+            "PublishTime": "2019-08-27T04:00:04",
+            "Date": "2019-08-26",
+            "DPuG_ID": "EA-007",
+            "ReportName": "Intraday Market Results Trade",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "IDC_TradeFile_20190826_20190827053408.xml"
+        },
+        {
+            "_id": "5d6533df9620d94967049c6c",
+            "DPuG_ID": "EA-002",
+            "ReportName": "ETS Bid File",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "BidFile_SEM-IDA3_PWR-SEM-D_20190827130000_20190827130313.csv",
+            "Date": "2019-08-27T13:00:00",
+            "PublishTime": "2019-08-28T00:00:05"
+        },
+        {
+            "_id": "5d6634839620d9353d4ce215",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_NI-IDA2_20190828_20190828093843.xml",
+            "PublishTime": "2019-08-29T00:00:03",
+            "Date": "2019-08-28"
+        },
+        {
+            "_id": "5d66855f9620d903bd37548d",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_NI-IDA3_20190828_20190828151652.xml",
+            "PublishTime": "2019-08-29T00:00:03",
+            "Date": "2019-08-28"
+        },
+        {
+            "_id": "5d66bd9f9620d915a169a0f5",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_ROI-IDA1_20190829_20190828191658.xml",
+            "PublishTime": "2019-08-30T00:00:05",
+            "Date": "2019-08-29"
+        },
+        {
+            "_id": "5d680b9e9620d97cc31b0c05",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_NI-IDA1_20190830_20190829190726.xml",
+            "PublishTime": "2019-08-31T00:00:05",
+            "Date": "2019-08-30"
+        },
+        {
+            "_id": "5d680b9e9620d97cc31b0c06",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_ROI-IDA1_20190830_20190829190726.xml",
+            "PublishTime": "2019-08-31T00:00:05",
+            "Date": "2019-08-30"
+        },
+        {
+            "_id": "5d6c93c39620d9294d785c33",
+            "PublishTime": "2019-09-02T04:00:03",
+            "Date": "2019-09-01",
+            "DPuG_ID": "EA-007",
+            "ReportName": "Intraday Market Results Trade",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "IDC_TradeFile_20190901_20190902053342.xml"
+        },
+        {
+            "_id": "5d6d00bd9620d93dd55aace2",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_NI-DA_20190903_20190902132326.xml",
+            "PublishTime": "2019-09-04T00:00:03",
+            "Date": "2019-09-03"
+        },
+        {
+            "_id": "5d6d00c09620d93dd55aacfb",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_ROI-DA_20190903_20190902132326.xml",
+            "PublishTime": "2019-09-04T00:00:04",
+            "Date": "2019-09-03"
+        },
+        {
+            "_id": "5d6d1cde9620d906d4141c22",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_NI-IDA3_20190902_20190902151858.xml",
+            "PublishTime": "2019-09-03T00:00:04",
+            "Date": "2019-09-02"
+        },
+        {
+            "_id": "5d6d1cdf9620d906d4141c2f",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_ROI-IDA3_20190902_20190902151858.xml",
+            "PublishTime": "2019-09-03T00:00:05",
+            "Date": "2019-09-02"
+        },
+        {
+            "_id": "5d6d1cdf9620d906d4141c3c",
+            "DPuG_ID": "EA-002",
+            "ReportName": "ETS Bid File",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "BidFile_SEM-IDA3_PWR-SEM-D_20190902130000_20190902130312.csv",
+            "Date": "2019-09-02T13:00:00",
+            "PublishTime": "2019-09-03T00:00:05"
+        },
+        {
+            "_id": "5d83bb1e9620d928365da075",
+            "DPuG_ID": "EA-006",
+            "ReportName": "Exchange Transparency",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": false,
+            "ResourceName": "ExchangeTransparencyData_NI-IDA1_20190920_20190919190805.xml",
+            "PublishTime": "2019-09-21T00:00:05",
+            "Date": "2019-09-20"
+        },
+        {
+            "_id": "5d8487039620d921f35ffd52",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_NI-IDA2_20190920_20190920094014.xml",
+            "PublishTime": "2019-09-21T00:00:03",
+            "Date": "2019-09-20"
+        },
+        {
+            "_id": "5d8487049620d921f35ffd6b",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_ROI-IDA2_20190920_20190920094014.xml",
+            "PublishTime": "2019-09-21T00:00:04",
+            "Date": "2019-09-20"
+        },
+        {
+            "_id": "5d850c9c9620d97c6551af82",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_NI-IDA1_20190921_20190920191337.xml",
+            "PublishTime": "2019-09-22T00:00:03",
+            "Date": "2019-09-21"
+        },
+        {
+            "_id": "5d850c9c9620d97c6551afb3",
+            "DPuG_ID": "EA-004",
+            "ReportName": "Bid\/Ask Curves",
+            "Group": [
+                "Market Data"
+            ],
+            "Dynamic": true,
+            "ResourceName": "BidAskCurves_ROI-IDA1_20190921_20190920191337.xml",
+            "PublishTime": "2019-09-22T00:00:04",
+            "Date": "2019-09-21"
+        }
+    ]
+}
