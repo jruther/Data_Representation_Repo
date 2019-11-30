@@ -15,14 +15,16 @@
         <script>
             function readJSON(){
                 $.ajax({
-                    "url": "https://api.coindesk.com/v1/bpi/currentprice.json",
+                    //"url": "https://api.coindesk.com/v1/bpi/currentprice.json",
+                    "url": "https://www.gmit.ie",
                     "method":"GET",
                     "data":"",
                     "dataType":"JSON",
                     "success":function(result){
-                        var rate = result.bpi.USD.rate;
+                        console.log(JSON.stringify(result));
+                        //var rate = result.bpi.USD.rate;
                         //console.log(rate);
-                        document.getElementById("output").innerText= rate;
+                        //document.getElementById("output").innerText= rate;
                     },
                     "error":function(xhr,status,error){
                         console.log("error: "+status+" msg:"+error);
